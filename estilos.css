@@ -1,0 +1,80 @@
+
+
+/* Estilos base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0; /* Color de fondo gris industrial */
+    color: #2b2b2b; /* Color de texto oscuro */
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #f7f7f7; /* Fondo claro para el contenedor */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado principal */
+h1 {
+    color: #4a4a4a; /* Tono gris oscuro */
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Subtítulos */
+h2 {
+    color: #333333; /* Otro tono oscuro */
+    font-size: 1.6em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #8b4513; /* Línea de estilo industrial */
+}
+
+/* Párrafos */
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 15px;
+    color: #4a4a4a; /* Tono gris oscuro para mejorar legibilidad */
+}
+
+/* Estilo de enlaces */
+a {
+    color: #8b4513; /* Color marrón industrial */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de imagen */
+img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive para móviles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
